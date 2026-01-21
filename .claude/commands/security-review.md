@@ -31,9 +31,6 @@ DIFF CONTENT:
 
 Review the complete diff above. This contains all code changes in the PR.
 
-[IMPORTANT] --- AST Graphs as Context:
-Abstract Syntax Tree (AST) graphs will be provided for modified files to enhance your security analysis. Use these AST graphs to trace data flow, identify dangerous code patterns (eval, dynamic SQL, unsafe deserialization), analyze control flow paths for bypasses, examine function calls and dependencies for vulnerabilities, and verify input validation and sanitization. Cross-reference AST structure with the diff content to identify security issues, referencing both line numbers and relevant AST nodes in your findings.
-
 OBJECTIVE:
 Perform a security-focused code review to identify HIGH-CONFIDENCE security vulnerabilities that could have real exploitation potential. This is not a general code review - focus ONLY on security implications newly added by this PR. Do not comment on existing security concerns.
 
